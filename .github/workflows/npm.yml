@@ -48,8 +48,8 @@ jobs:
     # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v3
       
       - name: Deploy to GitHub Pages
         id: deployment
